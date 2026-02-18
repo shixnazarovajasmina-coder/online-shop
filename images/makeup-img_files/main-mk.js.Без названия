@@ -1,0 +1,20 @@
+(function () {
+  window.chatMode = 'shop';
+
+  var styleElementAnchor = document.createElement('style');
+  styleElementAnchor.dataset.chatStyle = 'anchor';
+  styleElementAnchor.innerHTML = 'a[href*="https://chat.makeup.global/consultants/"] { opacity: 0.6; pointer-events: none; }';
+  document.head.appendChild(styleElementAnchor);
+
+  var linkElement0 = document.createElement('link');
+  linkElement0.rel = 'stylesheet';
+  linkElement0.href = 'https://chat.makeup.global/assets/index-CRfBw3eq.css';
+  document.head.appendChild(linkElement0);
+
+  var scriptElement = document.createElement('script');
+  scriptElement.defer = true;
+  scriptElement.type = 'module';
+  scriptElement.crossOrigin = 'anonymous';
+  scriptElement.src = 'https://chat.makeup.global/assets/index-s-nNocvu.js';
+  document.head.appendChild(scriptElement);
+})();

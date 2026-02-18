@@ -403,3 +403,79 @@ body {
         height: auto;
     }
 }
+
+
+
+
+/* ===== FOURTH SECTION ===== */
+.fourth-section {
+    width: 100%;
+    padding: 40px 20px;
+    background: #ffffff;
+}
+.fourth-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fourth-section .promo-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.fourth-section .promo-item {
+    flex: 1;
+}
+.fourth-section .promo-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fourth-section .promo-content {
+    margin-top: 12px;
+}
+.fourth-section .promo-button {
+    background: #000;
+    border-radius: 9px;
+    color: #fff;
+    border: 1px solid black;
+    padding: 12px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 8px;
+}
+.fourth-section .promo-button:hover {
+    background: #333;
+}
+.fourth-section .promo-timer {
+    font-size: 14px;
+    color: #7a5cff;
+}
+.fourth-section .promo-timer span {
+    font-weight: 600;
+}
+@media only screen and (max-width: 992px) {
+    .fourth-section .promo-wrapper {
+        gap: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .fourth-section {
+        padding: 30px 15px;
+    }
+    .fourth-section .promo-wrapper {
+        gap: 20px;
+    }
+    .fourth-section .promo-button {
+        padding: 10px 22px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .fourth-section .promo-wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .fourth-section .promo-button {
+        width: 100%;
+    }
+}
